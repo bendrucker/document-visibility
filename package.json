@@ -1,7 +1,7 @@
 {
   "name": "document-visibility",
   "main": "index.js",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Handle changes to browser document visibility",
   "license": "MIT",
   "repository": "bendrucker/document-visibility",
