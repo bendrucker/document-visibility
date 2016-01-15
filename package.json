@@ -27,7 +27,8 @@
     "tape": "^4.0.0"
   },
   "files": [
-    "index.js"
+    "index.js",
+    "keys.js"
   ],
   "dependencies": {
     "geval": "~2.1.1",
