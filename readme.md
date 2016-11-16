@@ -19,7 +19,7 @@ var visibility = Visibility()
 visibility.visible()
 //=> true/false
 
-visibility.onChange(function (visible) {
+var unlisten = visibility.onChange(function (visible) {
   //=> true/false  
 })
 ```

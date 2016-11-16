@@ -42,6 +42,26 @@ test('unsupported', function (t) {
   t.end()
 })
 
+test('unlisten', function (t) {
+  var document = new EventTarget()
+
+  var Visibility = proxyquire('./', {
+    'global/document': document
+  })
+
+  var visibility = Visibility()
+
+  var unlisten = visibility.onChange(function () {
+    t.fail('should not be called')
+  })
+
+  document.hidden = true
+  unlisten()
+  document.send('visibilitychange')
+
+  t.end()
+})
+
 test('keys', function (t) {
   t.notOk(Keys({}))
   t.deepEqual(Keys({hidden: false}), {

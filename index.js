@@ -35,4 +35,6 @@ function noopShim () {
   }
 }
 
-function noop () {}
+function noop () {
+  return noop
+}
