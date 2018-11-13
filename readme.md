@@ -1,4 +1,4 @@
-# document-visibility [![Build Status](https://travis-ci.org/bendrucker/document-visibility.svg?branch=master)](https://travis-ci.org/bendrucker/document-visibility)
+# document-visibility [![Build Status](https://travis-ci.org/bendrucker/document-visibility.svg?branch=master)](https://travis-ci.org/bendrucker/document-visibility) [![Greenkeeper badge](https://badges.greenkeeper.io/bendrucker/document-visibility.svg)](https://greenkeeper.io/)
 
 > Handle changes to browser document visibility using the [Page Visibility API](https://developer.mozilla.org/en-US/docs/Web/API/Page_Visibility_API)
 
